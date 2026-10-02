@@ -10,8 +10,9 @@ const Email = z.object({
   email: z.string().email({ message: "Email is invalid!" }),
   message: z.string().min(10, "Message is too short!"),
 });
-export async function POST(req: Request) {
-  try {
+     export async function POST(req: Request) {
+     const resend = new Resend(process.env.RESEND_API_KEY);
+     try {
     const body = await req.json();
     console.log(body);
     const {
