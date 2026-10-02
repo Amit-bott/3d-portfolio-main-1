@@ -36,15 +36,15 @@ const config = {
   ],
   author: "Amit Chauhan",
   email: "ak6013348@gmail.com",
-  // site: "https://nareshkhatri.site",
+  site: "https://3d-portfolio-main-1.vercel.app",
 
   // for github stars button
   githubUsername: "Amit Chouhan",
   githubRepo: "3d-portfolio",
 
-  // get ogImg() {
-  //   return this.site + "/assets/seo/og-image.png";
-  // },
+     get ogImg() {
+     return this.site + "/assets/seo/og-image.png";
+   },
   social: {
     twitter: "https://x.com/nothotchaddi",
     linkedin: "https://www.linkedin.com/in/amit-kumar-363701337/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BjICAIaE3Q4ip9Bvk4Hx8Cg%3D%3D",
