@@ -626,7 +626,8 @@ export const SKILLS: Record<AiSkillNames, AiSkill> = {
   },
 };
 
-export type SkillNames = AiSkillNames;
+   export type SkillNames = AiSkillNames;
+   export type Skill = AiSkill;
 
 export type Experience = {
   id: number;
