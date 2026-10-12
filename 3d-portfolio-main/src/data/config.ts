@@ -46,7 +46,7 @@ const config = {
      return this.site + "/assets/seo/og-image.png";
    },
   social: {
-    twitter: "https://x.com/nothotchaddi",
+    twitter: "",
     linkedin: "https://www.linkedin.com/in/amit-kumar-363701337/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BjICAIaE3Q4ip9Bvk4Hx8Cg%3D%3D",
     instagram: "https://www.instagram.com/its__h4cker__69/",
     facebook: "https://www.facebook.com/profile.php?id=100055784630642",
